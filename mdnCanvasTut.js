@@ -1,6 +1,6 @@
 function draw() {
     var arena = document.getElementById('arena');
-    arena.
+    
     if (arena.getContext) {
         var ctx = arena.getContext('2d');
         ctx.

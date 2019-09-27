@@ -12,7 +12,6 @@ class Keyboarder {
     }
 
     isDown(keyCode) {
-        console.log(keyState)
         return this.keyState[keyCode] === true
     }
 

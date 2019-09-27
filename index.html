@@ -6,8 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Don't Die. Good Luck</title>
   <link rel="stylesheet" href="style.css">
-  <scripts src="keyboarder.js" defer></script>
+  <script src="keyboarder.js" defer></script>
   <script src="game.js" defer></script>
+  <script src="player.js" defer></script>
+  <script src="baddies.js" defer></script>
+  <!-- <script src="mdnCanvasTut.js" defer></script> -->
 </head>
 <body id="game">
   <header>
@@ -19,7 +22,7 @@
       <p></p>
     </div>
   </header>
-  <canvas width="800" height="600" id="arena">
+  <canvas id="arena" width="800" height="600">
     If you're seeing this message, either you're in inspector 
     or your canvas element isn't supported in your browser
   </canvas>
