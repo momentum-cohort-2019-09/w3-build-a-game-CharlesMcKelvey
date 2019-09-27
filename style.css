@@ -1,0 +1,21 @@
+#arena {
+    border: 1px solid red;
+    margin: 2rem auto;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(185, 174, 174);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+#score, #high-score {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

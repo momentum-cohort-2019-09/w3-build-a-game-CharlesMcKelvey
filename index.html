@@ -4,10 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <script src="keyboarder.js"></script>
+  <title>Don't Die. Good Luck</title>
+  <link rel="stylesheet" href="style.css">
+  <scripts src="keyboarder.js" defer></script>
+  <script src="game.js" defer></script>
 </head>
-<body>
-  
+<body id="game">
+  <header>
+    <div id="score">Score
+      <p ></p>
+    </div>
+    
+    <div id="high-score">High Score
+      <p></p>
+    </div>
+  </header>
+  <canvas width="800" height="600" id="arena">
+    If you're seeing this message, either you're in inspector 
+    or your canvas element isn't supported in your browser
+  </canvas>
 </body>
 </html>
