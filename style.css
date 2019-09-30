@@ -1,22 +1,30 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 #arena {
-    border: 1px solid red;
-    margin: 2rem auto;
+	border: 1px solid red;
+	margin: 2rem auto;
 }
 
 #game {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(185, 174, 174);
-    flex-direction: column;
+	display: flex;
+	justify-content: center;
+	background-color: rgb(185, 174, 174);
+	flex-direction: column;
 }
 
 header {
-    display: flex;
-    justify-content: space-around;
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-around;
 }
 
-#score, #high-score {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+#score,
+#high-score {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 }
